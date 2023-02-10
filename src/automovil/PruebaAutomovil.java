@@ -18,6 +18,8 @@ public class PruebaAutomovil {
         Automovil auto1 = new Automovil("Honda", "Civic", 2022, 10000, "Automatics");
     
         System.out.println(auto1);
+        
+        auto1.avanzar(12);
     }
     
 }

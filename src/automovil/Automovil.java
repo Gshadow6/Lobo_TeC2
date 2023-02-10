@@ -72,5 +72,9 @@ public class Automovil {
         return "El Automovil de marca " + marca + ", con submarca " + submarca + ", año " + anio + ", con " + kilometraje + " km, y de transmision " + transmision;
     }
     
+    public void avanzar(int km){
+        System.out.println("El automovil " + marca + " " + submarca + " " +anio+ " ha avanzado " + km + " kilometros");
+    }
+    
     
 }

@@ -76,5 +76,7 @@ public class Automovil {
         System.out.println("El automovil " + marca + " " + submarca + " " +anio+ " ha avanzado " + km + " kilometros");
     }
     
-    
+    public void frenar(){
+        System.out.println("El automovil " + marca + " " + submarca + " " +anio+ " esta frenando... pero no frena...");
+    }
 }

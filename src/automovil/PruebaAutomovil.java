@@ -20,6 +20,8 @@ public class PruebaAutomovil {
         System.out.println(auto1);
         
         auto1.avanzar(12);
+        
+        auto1.frenar();
     }
     
 }

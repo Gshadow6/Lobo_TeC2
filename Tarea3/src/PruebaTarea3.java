@@ -109,7 +109,6 @@ public class PruebaTarea3 {
         Teatro.put("J6",new Asiento(6, "Vinilo", "Azul Rey", true));
         Teatro.put("J7",new Asiento(6, "Vinilo", "Azul Rey", true));
         Teatro.put("J8",new Asiento(6, "Vinilo", "Azul Rey", true));
-
         for (String i : Teatro.keySet()){
             System.out.println("En la fila y columna: "+ i + " corresponde al "+Teatro.get(i));
         }
